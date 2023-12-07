@@ -1,0 +1,12 @@
+import "./style.css";
+const About = () => {
+    return (
+        <>
+            <div className="about" id="about">
+                Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı, Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı, Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı, Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı, Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı, Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı, Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı, Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı, Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı, Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı, Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı, Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı, Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı, Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı, Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı, Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı, Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı, Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı, Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı, Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı, Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı, Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı, Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı, Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı, Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı, Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı, Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,Uzun yazı,
+            </div>
+        </>
+    );
+};
+
+export default About;
