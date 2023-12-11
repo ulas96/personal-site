@@ -4,7 +4,7 @@ import Home from "./Home.jsx";
 const Banner = () => {
     return (
         <>
-            <div className="banner">
+            <div id="banner" className="banner">
                 <Navbar></Navbar>
                 <Home></Home>
             </div>
