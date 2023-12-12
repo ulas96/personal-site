@@ -22,7 +22,7 @@ const Navbar = () => {
             <img className="navbar-items" id="logo" src={logo} />
             <ul className="navbar-list">
                 <li className="navbar-items">
-                    <Link className="link" smooth to="#home">Home</Link>
+                    <Link className="link" smooth to="#banner">Home</Link>
                 </li>
                 <li className="navbar-items">
                     <Link className="link" smooth to="#about">About</Link>
