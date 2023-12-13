@@ -138,6 +138,7 @@
      display: flex;
      flex-direction: column;
      align-items: center;
+     margin-top: 40px;
  }
 
  .timeline-event {
@@ -145,6 +146,19 @@
      flex-direction: column;
      align-items: center;
      margin: 10px 0;
+ }
+.timeline-icon-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .timeline-icon {
+     width: 50px;
+     height: 50px;
+     margin-top: 5px;
+ }
+ .timeline-icon img {
+     object-fit: cover;
  }
 
  .timeline-event-date {
