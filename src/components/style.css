@@ -107,8 +107,8 @@
         font-size: 60px;
         font-weight: bold;
         color: white;
-        width: 50%;
-        background: -webkit-linear-gradient(white, #6af0fd, white,#6af0fd,white,#6af0fd, white,#6af0fd ,white   );
+        width: 60%;
+        background: -webkit-linear-gradient(white, #6af0fd, white,#6af0fd,white,#6af0fd, white,#6af0fd ,white);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
@@ -122,6 +122,7 @@
      display: flex;
      justify-content: center;
      align-items: center;
+     padding-top: 180px;
  }
 
  .about-header {
@@ -130,8 +131,10 @@
 
  .education-header{
      font-size: 50px;
-     padding-right: 1200px;
-
+     padding-right: 1000px;
+     background: -webkit-linear-gradient(white, #6af0fd, white);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
  }
  /*Timeline CSS*/
  .timeline {
@@ -153,9 +156,9 @@
     align-items: center;
 }
  .timeline-icon {
-     width: 50px;
-     height: 50px;
-     margin-top: 5px;
+     width: 40px;
+     height: 40px;
+     margin-top: 10px;
  }
  .timeline-icon img {
      object-fit: cover;
