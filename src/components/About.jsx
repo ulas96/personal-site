@@ -12,14 +12,14 @@ const About = () => {
 
                 <div className="about-text">
                     <div className="education">
-                        <div className="education-header">
+                        <div className="header">
                             Education
                         </div>
                         <EducationTimeline events={education}/>
                     </div>
 
                     <div className="experience">
-                        <div className="experience-header">
+                        <div className="header">
                             Experience
                         </div>
                         <ExperienceTimeline events={experience}/>
