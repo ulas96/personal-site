@@ -5,22 +5,21 @@ import PropTypes from 'prop-types';
 const EducationTimelineEvent = ({ event }) => {
     return (
         <VerticalTimelineElement
-        contentStyle={{ background: '#fff', color: '#000' }}
-        contentArrowStyle={{ borderRight: '7px solid  #fff' }}
-        date={event.date}
-        iconStyle={{ background: '#fff', color: '#fff' }}
-        icon={<div className="timeline-icon-div">
-            <a href={event.url}>
-                <img src={event.icon} alt={event.institution} className="timeline-icon" />
-            </a>
+            contentStyle={{ background: '#27313b', color: '#fff', boxShadow: 'none' }}
+            contentArrowStyle={{ borderRight: '7px solid  #27313b' }}
+            date={event.date}
+            iconStyle={{ background: '#fff', color: '#fff' }}
+            icon={<div className="timeline-icon-div">
+                <a href={event.url}>
+                    <img src={event.icon} alt={event.institution} className="timeline-icon" />
+                </a>
+            </div>}
+            >
+                <h3 className="vertical-timeline-element-title">{event.institution}</h3>
 
-        </div>}
-        >
-            <h3 className="vertical-timeline-element-title">{event.institution}</h3>
-
-            <p>
-                {event.department}
-            </p>
+                <p>
+                    {event.department}
+                </p>
         </VerticalTimelineElement>
     );
 };
@@ -41,8 +40,8 @@ const EducationTimeline = ({events}) => {
 const ExperienceTimelineEvent = ({ event }) => {
     return (
         <VerticalTimelineElement
-            contentStyle={{ background: '#fff', color: '#000' }}
-            contentArrowStyle={{ borderRight: '7px solid  #fff' }}
+            contentStyle={{ background: '#27313b', color: '#fff', boxShadow: 'none' }}
+            contentArrowStyle={{ borderRight: '7px solid  #27313b' }}
             date={event.date}
             iconStyle={{ background: '#fff', color: '#fff' }}
             icon={<div className="timeline-icon-div" id="experience-icon">
