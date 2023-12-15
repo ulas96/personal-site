@@ -1,3 +1,13 @@
+ /* App CSS*/
+
+ .header{
+     padding: 20px 1200px 0 20px;
+     font-size: 60px;
+     background: -webkit-linear-gradient(white, #6af0fd, white);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+
  /* Navbar CSS*/
 
  nav {
@@ -88,10 +98,12 @@
 /* Banner CSS*/
  .banner {
      background-image: url("/Users/ulas/Documents/GitHub/personal-site/src/assets/galaxy.png");
+     background-repeat: no-repeat;
+     background-size: cover;
      position: absolute;
      top: 0px;
      width: 100%;
-     height: 960px;
+     height: 98%;
      left: 0px;
      margin-bottom: 100px;
  }
@@ -114,6 +126,7 @@
     }
 
 
+
  /*About CSS*/
 
  .about {
@@ -125,30 +138,24 @@
      padding-top: 180px;
  }
 
- .about-header {
-     bottom: 10px;
- }
 
- .education-header{
-     font-size: 50px;
-     padding-right: 1000px;
-     background: -webkit-linear-gradient(white, #6af0fd, white);
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
- }
+
+
  /*Timeline CSS*/
  .timeline {
      display: flex;
      flex-direction: column;
      align-items: center;
-     margin-top: 40px;
+     margin: 50px 0 0 50px;
  }
+
+
 
  .timeline-event {
      display: flex;
      flex-direction: column;
      align-items: center;
-     margin: 10px 0;
+     margin: 10px 0 0 0;
  }
 .timeline-icon-div {
     display: flex;
@@ -170,4 +177,50 @@
 
  .timeline-event-content {
      text-align: center;
+ }
+
+ .vertical-timeline-element {
+      box-shadow: none !important;
+ }
+
+ /*Skills CSS*/
+
+ #skills-header{
+     margin-top: 60px;
+     margin-left: 215px;
+ }
+ .skills-container {
+     margin-top: 50px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
+
+ .skill{
+    width: 20%;
+     text-align: center;
+     margin-top: 30px;
+     margin-bottom: 30px;
+
+ }
+
+ .skill-div{
+     background: #27313b;
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin: 10% 0 0 20%;
+     padding: 30px;
+        border-radius: 10px;
+ }
+ .skill-icon-img{
+     width: 100px;
+     height: 100px;
+     object-fit: contain;
+ }
+
+ .skill-name{
+     margin: 20px 0 0 0;
  }
