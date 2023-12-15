@@ -5,7 +5,7 @@ import About from "./About.jsx";
 import Projects from "./Projects.jsx";
 import Skills from "./Skills.jsx";
 import Banner from "./Banner.jsx";
-
+import "./style.css";
 
 const App = () => {
     return (
