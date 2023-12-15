@@ -2,9 +2,7 @@
 
 import {HashLink as Link} from "react-router-hash-link";
 import logo from "/Users/ulas/Documents/GitHub/personal-site/src/assets/logo.svg";
-import githubLogo from "/Users/ulas/Documents/GitHub/personal-site/src/assets/github-mark-white.svg";
-import linkedinLogo from "/Users/ulas/Documents/GitHub/personal-site/src/assets/linkedin-logo.png";
-import ensLogo from "/Users/ulas/Documents/GitHub/personal-site/src/assets/ens-logo.png";
+import {ens, github, linkedin} from "../constants/index.js";
 import "./style.css";
 
 const Navbar = () => {
@@ -19,7 +17,7 @@ const Navbar = () => {
 
     return (
         <nav >
-            <img className="navbar-items" id="logo" src={logo} />
+            <img className="navbar-items" id="logo" src={logo} alt="logo"/>
             <ul className="navbar-list">
                 <li className="navbar-items">
                     <Link className="link" smooth to="#banner">Home</Link>
@@ -38,18 +36,18 @@ const Navbar = () => {
             <div className="platform-logo">
                 <div id="github-logo">
                     <a href="https://github.com/ulas96">
-                        <img src={githubLogo}/>
+                        <img src={github} alt="github"/>
                     </a>
                 </div>
 
                 <div id="linkedin-logo">
                     <a href="https://www.linkedin.com/in/ulas-yildiz-7561a688/">
-                        <img src={linkedinLogo}/>
+                        <img src={linkedin} alt="linkedin"/>
                     </a>
                 </div>
                 <div id="ens-logo">
                     <a href="https://app.ens.domains/apoxy.eth">
-                        <img src={ensLogo}/>
+                        <img src={ens} alt="ens"/>
                     </a>
                 </div>
 
