@@ -1,6 +1,6 @@
 import "./style.css";
-import Timeline from "./Timeline.jsx";
-import {education as events} from "/Users/ulas/Documents/GitHub/personal-site/src/constants/index.js";
+import {EducationTimeline, ExperienceTimeline} from "./Timeline.jsx";
+import { education, experience } from "/Users/ulas/Documents/GitHub/personal-site/src/constants/index.js";
 const About = () => {
 
     return (
@@ -15,11 +15,14 @@ const About = () => {
                         <div className="education-header">
                             Education
                         </div>
-                        <Timeline events={events}/>
+                        <EducationTimeline events={education}/>
                     </div>
 
                     <div className="experience">
-
+                        <div className="experience-header">
+                            Experience
+                        </div>
+                        <ExperienceTimeline events={experience}/>
                     </div>
 
                 </div>
