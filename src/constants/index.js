@@ -19,6 +19,8 @@ import github from '../assets/socials/github.svg';
 import ens from '../assets/socials/ens.png';
 import linkedin from '../assets/socials/linkedin.png';
 
+
+
 const education = [
     {institution: 'Ozel Ege Lisesi', department: 'Science/Mathematics', date: '2010-2014', icon: ege, url: 'https://www.egelisesi.k12.tr/'},
     {institution: 'Middle East Technical University', department: 'Aerospace Engineering', date: '2014-2021', icon: metu, url: 'https://www.metu.edu.tr/'},
@@ -33,6 +35,12 @@ const experience = [
 "Built algorithms to make decisions using decentralized consensus mechanisms for the next generation swarm drones"  ]},
 ];
 
+
+const projects = [
+    {name: "Toe2toe", description: "A play-to-earn rock paper scissor game", url: "https://toe2toe.app/", github: "https://github.com/ulas96/rock-paper-scissor"},
+    {name: "EXC Token and Swap", description: "EXC Token and a simple swap", url: "https://github.com/ulas96/excelcium-swap", github: "https://github.com/ulas96/excelcium-swap"},
+    {name: "Uruk DAO (Under construction)", description: "To be decentralized Academia", url: "https://github.com/ulas96/uruk-dao", github: "https://github.com/ulas96/uruk-dao"}
+];
 const skills = [   {name:"System Engineering" , icon: systemEngineering}, {name:"Problem Solving", icon: problemSolving} ,{name: "Solidity" , icon: solidity}, {name: "React",icon: reactjs}, {name: "Typescript", icon: typescript}, {name: "Node.js", icon: nodejs} ,{name: "Javascript", icon: javascript}, {name: "Matlab/Simulink", icon: matlab},{name: "CSS", icon: css}, ];
 
-export {education, experience, skills, github, ens, linkedin};
+export {education, experience, skills, projects, github, ens, linkedin};
