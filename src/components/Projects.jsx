@@ -16,7 +16,7 @@ const Projects = () => {
                             <Card.Text>
                                 {project.description}
                             </Card.Text>
-                            <Button variant="primary" href={project.url}>Go to Project</Button>
+                            <Button className="project-button" variant="primary" href={project.url}>Go to Project</Button>
                         </Card.Body>
                     </Card>
                 ))}
