@@ -185,6 +185,10 @@
 
  /*Skills CSS*/
 
+ #skills{
+     padding: 100px 0 0 0;
+ }
+
  #skills-header{
      margin-top: 60px;
      margin-left: 215px;
@@ -240,16 +244,35 @@
      transition: 0.3s;
      border-radius: 5px;
      width: 20%;
+     background-color: #27313b; /* Light grey background */
+     color: white; /* Dark text color */
  }
 
  .project-card:hover {
      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+     transform: scale(1.05); /* Slightly enlarge the card on hover */
  }
 
  .project-card img {
      border-radius: 5px 5px 0 0;
+     object-fit: cover; /* Make sure the image covers the entire card top */
+     height: 200px; /* Set a fixed height for the image */
  }
 
  .project-card .card-body {
      padding: 20px;
+     display: flex; /* Use flexbox for layout */
+     flex-direction: column; /* Stack the content vertically */
+     justify-content: space-between; /* Distribute space evenly */
+ }
+
+ .project-button {
+     background-color: #007bff; /* Change the background color */
+     border-color: #007bff; /* Change the border color */
+     color: #fff; /* Change the text color */
+ }
+
+ .project-button:hover {
+     background-color: #0056b3; /* Change the background color on hover */
+     border-color: #0056b3; /* Change the border color on hover */
  }
