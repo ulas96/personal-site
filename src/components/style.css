@@ -266,13 +266,30 @@
      justify-content: space-between; /* Distribute space evenly */
  }
 
- .project-button {
-     background-color: #007bff; /* Change the background color */
-     border-color: #007bff; /* Change the border color */
-     color: #fff; /* Change the text color */
+ .project-description {
+     font-size: 20px;
+     margin: 10px 0 0 0;
+     opacity: 50%;
  }
 
- .project-button:hover {
-     background-color: #0056b3; /* Change the background color on hover */
-     border-color: #0056b3; /* Change the border color on hover */
+ .project-button-container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
  }
+
+
+    .project-button {
+        opacity: 75%;
+        background-color: #27313b;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+    }

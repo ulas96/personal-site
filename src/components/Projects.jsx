@@ -10,13 +10,16 @@ const Projects = () => {
             <div className="projects-container">
                 {projects.map((project, index) => (
                     <Card key={index} className="project-card" style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={project.image} />
                         <Card.Body>
-                            <Card.Title>{project.name}</Card.Title>
-                            <Card.Text>
+                            <Card.Title className="project-title">{project.name}</Card.Title>
+                            <Card.Text className="project-description">
                                 {project.description}
                             </Card.Text>
-                            <Button className="project-button" variant="primary" href={project.url}>Go to Project</Button>
+
+                            <div className="project-button-container">
+                                <Button className="project-button" variant="primary" href={project.url}>Go to Project</Button>
+                            </div>
+
                         </Card.Body>
                     </Card>
                 ))}
