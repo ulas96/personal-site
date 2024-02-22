@@ -293,3 +293,47 @@
         cursor: pointer;
         border-radius: 5px;
     }
+
+ @media screen and (max-width: 680px) {
+     nav {
+         position: static;
+         padding-left: 0;
+         margin-right: 0;
+     }
+
+     .banner {
+         background-size: cover;
+         height: auto;
+     }
+
+
+
+     .home-text {
+         font-size: 30px;
+         width: 80%;
+     }
+     .timeline {
+         width: 20%;
+         overflow: visible; /* Add this line */
+         padding-left: 600px;
+     }
+
+     .timeline-event {
+         width: 50%; /* Adjust as needed */
+         box-sizing: border-box; /* Add this line to include padding and border in the element's total width */
+     }
+
+     .timeline-icon{
+         height: 30px;
+         width: 30px;
+         margin-top: 5px;
+     }
+
+     .skills-container {
+         flex-direction: column;
+     }
+
+     .skill {
+         width: 100%;
+     }
+ }
