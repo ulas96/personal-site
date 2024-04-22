@@ -1,7 +1,6 @@
  /* App CSS*/
 
  .header{
-     padding: 20px 1200px 0 20px;
      font-size: 60px;
      background: -webkit-linear-gradient(white, #6af0fd, white);
      -webkit-background-clip: text;
@@ -137,7 +136,18 @@
      align-items: center;
      padding-top: 180px;
  }
+ 
+ #education-header{
+   margin-right: 1050px;
+ }
 
+ .experience{
+    padding-top: 100px;
+ }
+
+#experience-header{
+    margin-right: 700px;
+}
 
 
 
@@ -186,12 +196,15 @@
  /*Skills CSS*/
 
  #skills{
-     padding: 100px 0 0 0;
+    padding: 100px 0 0 0; 
+    margin-left: 200px;
+    margin-right: 200px
+      
  }
 
  #skills-header{
      margin-top: 60px;
-     margin-left: 215px;
+     margin-left: 100px;
  }
  .skills-container {
      margin-top: 50px;
@@ -230,6 +243,10 @@
  }
 
  /* Project CSS */
+.projects{
+    padding-top: 50px;
+}
+
  .projects-container {
      display: flex;
      flex-wrap: wrap;
@@ -237,6 +254,9 @@
 
  }
 
+#projects-header{
+    margin-left: 300px;
+}
 
  .project-card {
      margin: 40px;
@@ -337,3 +357,44 @@
          width: 100%;
      }
  }
+
+ @media only screen and (min-width: 2000px) {
+
+    .home-text{
+        padding-top: 100px;
+        padding-left: 150px;
+    }
+
+    .navbar-list{
+        padding-left: 1000px;
+    }
+
+
+    
+    .education{
+        padding-top: 500px;
+    }
+
+    #education-header{
+        padding-right: 17vw;
+    }
+    
+    .experience{
+        padding-top: 100px;
+    }
+
+   #skills {
+
+     margin-left: 300px;
+     margin-right: 300px
+   }
+
+   .projects{
+    padding-top: 100px;
+   }
+
+   #projects-header {
+     margin-left: 400px;
+     ;
+   }
+}

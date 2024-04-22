@@ -1,4 +1,3 @@
-// App.js
 
 import { BrowserRouter} from 'react-router-dom';
 import About from "./About.jsx";

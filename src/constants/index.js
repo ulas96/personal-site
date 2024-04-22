@@ -9,7 +9,7 @@ import css from '../assets/skills/css.png';
 import javascript from '../assets/skills/javascript.png';
 import matlab from '../assets/skills/matlab.png';
 import nodejs from '../assets/skills/nodejs.png';
-import problemSolving from '../assets/skills/problemSolving.svg';
+import aws from '../assets/skills/aws.png';
 import reactjs from '../assets/skills/reactjs.png';
 import solidity from '../assets/skills/solidity.svg';
 import systemEngineering from '../assets/skills/systemEngineering.png';
@@ -38,11 +38,13 @@ const experience = [
 
 
 
-const skills = [   {name:"System Engineering" , icon: systemEngineering}, {name:"Problem Solving", icon: problemSolving} ,{name: "Solidity" , icon: solidity}, {name: "React",icon: reactjs}, {name: "Typescript", icon: typescript}, {name: "Node.js", icon: nodejs} ,{name: "Javascript", icon: javascript}, {name: "Matlab/Simulink", icon: matlab},{name: "CSS", icon: css}, {name: "Hardhat", icon: hardhat},];
+const skills = [   {name:"System Engineering" , icon: systemEngineering}, {name:"AWS", icon: aws} ,{name: "Solidity" , icon: solidity}, {name: "React",icon: reactjs}, {name: "Typescript", icon: typescript}, {name: "Node.js", icon: nodejs} ,{name: "Javascript", icon: javascript}, {name: "Matlab/Simulink", icon: matlab},{name: "CSS", icon: css}, {name: "Hardhat", icon: hardhat},];
 
 const projects = [
     {name: "Toe2toe", description: "A play-to-earn rock paper scissor game", url: "https://toe2toe.app/", github: "https://github.com/ulas96/rock-paper-scissor"},
     {name: "EXC Token and Swap", description: "EXC Token and a simple swap", url: "https://github.com/ulas96/excelcium-swap", github: "https://github.com/ulas96/excelcium-swap"},
-    {name: "Uruk DAO (Under construction)", description: "To be decentralized Academia", url: "https://github.com/ulas96/uruk-dao", github: "https://github.com/ulas96/uruk-dao"}
+    {name: "Uruk DAO (Under construction)", description: "To be decentralized Academia", url: "https://github.com/ulas96/uruk-dao", github: "https://github.com/ulas96/uruk-dao"},
+    {name: "Proof of String", description: "Efficient sting storage in blockchain", url: "https://github.com/ulas96/uruk-dao", github: "https://github.com/ulas96/uruk-dao"},
+
 ];
 export {education, experience, skills, projects, github, ens, linkedin};

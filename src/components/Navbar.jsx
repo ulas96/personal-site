@@ -1,4 +1,4 @@
-// Navigation.js
+// Navigation.j
 
 import {HashLink as Link} from "react-router-hash-link";
 import logo from "/Users/ulas/Documents/GitHub/personal-site/src/assets/logo.svg";

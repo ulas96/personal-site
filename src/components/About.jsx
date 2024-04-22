@@ -12,17 +12,24 @@ const About = () => {
 
                 <div className="about-text">
                     <div className="education">
-                        <div className="header">
+                        <div className="header" id="education-header">
                             Education
                         </div>
-                        <EducationTimeline events={education}/>
+
+                        <div className="timeline-container">
+                            <EducationTimeline events={education}/>
+                        </div>
+                            
                     </div>
 
                     <div className="experience">
-                        <div className="header">
+                        <div className="header" id="experience-header">
                             Experience
                         </div>
-                        <ExperienceTimeline events={experience}/>
+
+                        <div className="timeline-container">
+                            <ExperienceTimeline events={experience}/>
+                        </div>
                     </div>
 
                 </div>
