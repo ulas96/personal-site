@@ -45,6 +45,7 @@ const projects = [
     {name: "EXC Token and Swap", description: "EXC Token and a simple swap", url: "https://github.com/ulas96/excelcium-swap", github: "https://github.com/ulas96/excelcium-swap"},
     {name: "Uruk DAO (Under construction)", description: "To be decentralized Academia", url: "https://github.com/ulas96/uruk-dao", github: "https://github.com/ulas96/uruk-dao"},
     {name: "Proof of String", description: "Efficient sting storage in blockchain", url: "https://github.com/ulas96/uruk-dao", github: "https://github.com/ulas96/uruk-dao"},
+    {name: "Babylon Generative AI", description: "Create personalised AI generated roadmaps", url: "https://babylongen.com/", github: "https://github.com/ulas96/babylon-app"},
 
 ];
 export {education, experience, skills, projects, github, ens, linkedin};
